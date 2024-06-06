@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Form Data Nilai Mahasiswa</title>
+    <link rel="stylesheet" href="css-Tugas-Desain-Web/login.css">
+    <style>
+      body {
+        font-family: arial;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .overlay {
+        background-color: rgba(0,0,0,0.6);
+        position: fixed;
+        right: 0;
+        left: 0;
+        bottom: 0;
+        top: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .wrapper {
+        position: relative;
+        height: 300px;
+        border-radius: 10px;
+        box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.2);
+        width: 500px;
+        padding: 10px;
+        padding-left: 20px;
+        padding-bottom: 20px;
+        background-color: rgb(255, 240, 219);
+      }
+
+      .wrapper h1 {
+        text-align: center;
+      }
+
+      td {
+        padding: 10px;
+      }
+
+      .input-box-email, 
+      .input-box-nama, 
+      .input-box-nim {
+        padding: 5px;
+        border-style: solid;
+        width: 300px;
+      }
+
+     
+
+      .button {
+        display: flex;
+        justify-content: space-evenly;
+        text-align: center;
+      }
+
+      .btn-masuk {
+        padding: 10px 20px;
+        width: 200px;
+        font-size: 15px;
+        border: none;
+        border-radius: 7px;
+        box-shadow: 1px 3px 8px rgba(0, 0, 0, 0.2);
+        background-color: rgb(104, 255, 66);
+        transition: background-color 0.2s;
+      }
+
+      .btn-masuk:hover {
+        cursor: pointer;
+        background-color: rgb(89, 225, 55);
+      }
+
+      .btn-masuk:active {
+        box-shadow: none;
+        margin-top: 5px;
+        margin-left: 3px;
+      }
+    </style>
+  </head>
+  
+  <body background="pictures/GEDUNG-B24-scaled-e1613012398603-600x630.jpg">
+    <div class="overlay">
+      <div class="wrapper">
+        <h1>Halaman Masuk</h1>
+        <form action="form-masuk.php" method="post">
+          <table>
+             <tr>
+               <td>Masukkan Email:</td>
+               <td><input class="input-box-email" type="text" name="email"></td>
+             </tr>
+             <tr>
+               <td>Nama Lengkap:</td>
+               <td><input class="input-box-nama" type="text" name="nama"></td>
+             </tr>
+             <tr>
+              <td>NIM:</td>
+              <td><input class="input-box-nim" type="text" name="nim"></td>
+            </tr>
+          </table>
+          <br>
+        <div class="button">
+        <input type="submit" value="Masuk" class="btn-masuk">
+        </div>
+      </form>
+    </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,27 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.opacity {
+  background-color: rgba(0,0,0,0.6);
+  position: fixed;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-container {
+  background-color: white;
+  padding-left: 15px;
+  padding-bottom: 15px;
+  width: 350px;
+  border-radius: 10px;
+}
+
+.tombol-masuk {
+  text-decoration: none;
+}

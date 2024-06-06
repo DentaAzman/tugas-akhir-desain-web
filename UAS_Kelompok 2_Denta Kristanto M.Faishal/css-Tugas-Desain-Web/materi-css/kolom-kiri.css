@@ -1,0 +1,26 @@
+.kolom-kiri {
+  position: fixed;
+  top: 120px;
+  left: 0;
+  bottom: 0;
+  background-color: rgb(251, 254, 209);
+  border-radius: 10px;
+  box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.3);
+  width: 210px;
+  padding-left: 10px;
+}
+
+.kolom-kiri-link {
+  color: black;
+  font-weight: 600;
+  text-decoration-line: none;
+}
+
+.kolom-kiri-link:hover {
+  color: rgb(102, 35, 163);
+  text-decoration: underline;
+}
+
+.kolom-kiri-link:active {
+  opacity: 0.5;
+}
